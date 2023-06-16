@@ -1,0 +1,36 @@
+* {
+  padding: 0;
+  margin:0 ;
+}
+
+.cardapio{
+  color: red;
+  font-style: italic;
+}
+
+header { 
+  background-color: aqua;
+  font-family: 'Roboto', sem serifa;
+  min-height:30vh;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.button {
+  cursor: pointer;
+  background-color:aqua ;
+  color: black;
+} 
+.button:hover {
+  background-color: red;
+}
+
+.interface { 
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  gap: 5px;
+  align-items: center;
+}
+
